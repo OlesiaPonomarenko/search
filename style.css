@@ -1,0 +1,89 @@
+body {
+    background-color: #810000;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.faceHeader {
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    transition: 5s ease-in;
+    opacity: 0.5;
+    margin: 3px;
+}
+
+.one {
+    background-image: url(./img/DeadToMe.jpg);
+}
+
+.two {
+    background-image: url(./img/queens_gambit_.jpg);
+}
+
+.three {
+    background-image: url(./img/StrangerThings_.jpg);
+}
+
+.four {
+    background-image: url(./img/You_.jpg);
+}
+.five {
+    background-image: url(./img/MV5BY2FmYmJiYTQtYmJouterBanks_.jpg);
+}
+
+.six {
+    background-image: url(./img/Sex\ Education\ .jpg);
+}
+
+.new {
+    flex:4;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSearch {
+    display: flex;
+}
+
+#search {
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.contanerMovie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+
