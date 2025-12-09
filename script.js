@@ -22,3 +22,10 @@ deleteclass = () => {
     })
 }
 })
+
+picture.forEach( item => {
+    item.addEventListener('click', () => {
+        deleteclass();
+        item.classList.add('new');
+    })
+})
